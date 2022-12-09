@@ -1,14 +1,19 @@
 body {
 	background: #EFEFBB;
-	background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+	background: linear-gradient(to right, rgb(0, 0, 0), rgb(202, 0, 0));
 	color: white;
 	margin: 0;
 	font-family: rubik;
 }
 
+.imagem{
+	width: 500px;
+	padding: 40px;
+}
+
 .container {
 	padding: 40px;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
 
 h1 {
@@ -46,43 +51,43 @@ h1 {
 }
 
 .steel {
-	background-color: #f4f4f4;
+	background-color: #979797;
 }
 
 .fire {
-	background-color: #FDDFDF;
+	background-color: #ff3838;
 }
 
 .grass {
-	background-color: #DEFDE0;
+	background-color: #4ccf00;
 }
 
 .electric {
-	background-color: #FCF7DE;
+	background-color: #f0c800;
 }
 
 .water, .ice {
-	background-color: #DEF3FD;
+	background-color: #0371a3;
 }
 
 .ground {
-	background-color: #f4e7da;
+	background-color: #ff8000;
 }
 
 .rock {
-	background-color: #d5d5d4;
+	background-color: #818181;
 }
 
 .fairy {
-	background-color: #fceaff;
+	background-color: #b087b8;
 }
 
 .poison {
-	background-color: #98d7a5;
+	background-color: #8a8a8a;
 }
 
 .bug {
-	background-color: #f8d5a3;
+	background-color: #a6ff72;
 }
 
 .dragon {
@@ -105,6 +110,10 @@ h1 {
 	background-color: #F5F5F5;
 }
 
+.ghost {
+	background-color: #7096de;
+}
+
 .card:hover {
 	animation: bounce 0.5s linear;
 }
@@ -120,7 +129,7 @@ h1 {
 
 .card-subtitle {
 	margin-top: 5px;
-	color: #666;
+	color: rgb(0, 0, 0);
 	font-weight: lighter;
 	position: relative;
 	z-index: 2;
